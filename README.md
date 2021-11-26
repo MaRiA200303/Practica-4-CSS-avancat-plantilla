@@ -1,1 +1,3 @@
-# Practica-4-CSS-avancat-plantilla
+·Jo vaig decidir fer  la web en una sola pàgina. Per tant, per cada apartat finalitzat he posat una línia separatòria utilitzant “hr”. Crec que qui hagi fet tot en un, estaria bé que ho fessin servir per separar apartats.
+·També vaig pensar que seria millor que el menú sigui fix encara que es vagi baixant la pàgina. D'aquesta manera, la persona que estigui a la web pot fer clic a una altra secció sense necessitat de tornar a dalt. He utilitzat “position” per posar-ho fix i “right” “left” ”top” per que no es mogui d’on estaba abans.
+·A més al menú he posat un color transparent cada vegada que passi la fletxa per sobre. Així es pot saber on es va quina secció clicaràs. 
