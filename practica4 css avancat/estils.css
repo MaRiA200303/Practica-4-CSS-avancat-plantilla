@@ -1,0 +1,275 @@
+/* font*/
+@font-face {
+    font-family: dayslater;
+    src: url(fonts/28\ Days\ Later.ttf) format('truetype');
+}
+
+h1{
+    font-family: dayslater;
+    font-size: 400%;
+    
+}
+
+/*menu*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: rgb(8, 8, 8);
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 65px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(8, 8, 8);
+}
+
+#menu a:hover{
+  background: rgba(199, 93, 7, 0.2);
+}
+/*fons pàgina*/
+  body {
+    background: -webkit-linear-gradient(90deg, rgb(116, 82, 10) 10%, rgb(235, 133, 38) 90%);
+    background: -moz-linear-gradient(90deg, rgb(116, 82, 10) 10%, rgb(235, 133, 38) 90% );
+    background: -ms-linear-gradient(90deg,  rgb(116, 82, 10) 10%, rgb(235, 133, 38) 90%);
+    background: -o-linear-gradient(90deg,  rgb(116, 82, 10) 10%, rgb(235, 133, 38) 90%);
+    background: linear-gradient(90deg,  rgb(116, 82, 10) 10%, rgb(235, 133, 38) 90%);
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .menu:hover:hover .dropdown-content {
+      display: block;
+      }
+      .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+        }
+        .dropdown-content a:hover {
+          color: #FFFFFF;
+          background-color: #bdaa00;
+          }
+  /*estils lletres*/
+ h1{
+   font-family: dayslater;
+   font-size: 550%;
+   text-align: center;
+  
+ }
+  h5{
+  font-family:'Times New Roman';
+  font-size: 150%;
+  text-align:center;
+  vertical-align: middle;
+  text-indent: 50px;
+  }
+
+  pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 160%;
+    text-align: left;
+    margin-left: 10%;
+  }
+  .descripció{
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 140%;
+    text-align: left;
+    margin-left: 5%;
+  }
+  
+  h3{
+    font-size: 'optima';
+    font-size: 140%;
+    text-align: left;
+    margin-left: 5%;
+
+  }
+  
+  /*galeria*/
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/*formulari*/
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(133, 216, 0);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #d3c93f;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*taula plataformes*/
+table{
+  width: 800px;
+  margin: auto;
+  height: 500px;
+}
+th{
+  background-color: #eeea10;
+  color: #000000;
+  padding: 10px 20px;
+}
+td{
+  border-bottom: 1px solid rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px 20px 0;
+}
+tbody{
+
+  background: #e0ab38;
+}
+img.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*Footer*/
+footer{
+  background:#000000;
+  height: auto;
+  width: 100vw;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 5px;
+  color: #fffefe;
+  font-size: 60%;
+  
+}
+.footer-content pre{
+  align-items: center;
+}
